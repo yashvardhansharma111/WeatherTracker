@@ -97,44 +97,60 @@ Happy Weather Tracking! 🌤️
 
 
 
-## 📲 How to Install & Use the Weather Tracker App
+# Weather Tracker App — Installation Guide
 
-Anyone can try this app — no coding or installation tools needed!
-
-### ✅ Requirements:
-- A smartphone (Android or iPhone)
-- Internet connection
-- 1–2 minutes of time
+This guide will walk you through installing and using the Weather Tracker app on your Android device—even if you're not tech-savvy!
 
 ---
 
-### 🪜 Steps to Use the App
+##  Android: Install & Run the App Using APK
 
-#### 1. **Install the Expo Go App**
+###  Requirements:
+- An Android smartphone
+- Internet access (to download the app)
+- Just a few minutes to install
 
-This app is required to open mobile projects made with Expo (like this one):
+---
 
-- 📱 Android (Google Play):
-  https://play.google.com/store/apps/details?id=host.exp.exponent
+###  Steps to Install
 
-- 📱 iPhone (App Store):
-  https://apps.apple.com/app/expo-go/id982107779
+1. **Download the APK**
 
-#### 2. **Open Expo Go**
+   Visit the following link on your phone’s browser to download the app:
+   
+   **Download link:**  
+   https://expo.dev/accounts/yashvardhansharma001/projects/WeatherTracker/builds/45fe81db-c0dd-49bc-ac72-fa33f5d95569
 
-- Open the Expo Go app you just installed.
-- Tap **"Explore"** or **"Projects"** (depending on your device).
+2. **Install the app**
+   
+   After downloading, open the APK file and follow the prompt to install.
+   
+   - If it’s your first time installing from outside the Play Store, you may need to enable "Install Unknown Apps" for your browser or file manager.
+   
+3. **Open & Enjoy**
 
-#### 3. **Paste the App Link**
+   Once installed, you can open the Weather Tracker app directly from your device.
+   - No Expo Go required—this is a standalone app!
 
-Copy and paste this link inside the Expo Go app:
+---
 
-https://expo.dev/@yashvardhansharma001/weathertracker
+##  iOS & Alternative Option: Use Expo Go Instead
 
-#### 4. **Run the App Instantly**
+If you're on iPhone or prefer not to install the APK, you can still run the app via Expo Go:
 
-After a few seconds, the Weather Tracker app will load and run on your phone.
+###  Steps via Expo Go
 
-No login, no setup, no installation required.
+1. **Install Expo Go App**
+   - Android: https://play.google.com/store/apps/details?id=host.exp.exponent
+   - iPhone: https://apps.apple.com/app/expo-go/id982107779
+
+2. **Open Expo Go and enter the app link**
+
+   Navigate to the "**Projects**" or "**Explore**" section and enter:
+https://expo.dev/@yashvardhansharma001/WeatherTracker
+
+3. **App loads instantly**
+
+Your app will open in seconds—no installation, no hassle.
 
 ---
