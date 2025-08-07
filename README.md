@@ -1,50 +1,140 @@
-# Welcome to your Expo app 👋
+# WeatherTracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform React Native (Expo) app for real-time weather tracking, location management, and user authentication.
 
-## Get started
+---
 
-1. Install dependencies
+## 🌦️ Features
+- **Weather Data:** Real-time current weather and 7-day forecast from [WeatherAPI.com](https://www.weatherapi.com/).
+- **Location Management:** Add, save, switch, set default, and detect locations via GPS.
+- **Offline Support:** Caches last weather data for offline use.
+- **Authentication:** Secure email/password login & registration with Firebase Auth.
+- **Modern UI/UX:** White & sky blue theme, icons, animations, and responsive design.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Getting Started
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. **Clone the Repository**
 ```bash
-npm run reset-project
+git clone <YOUR_REPO_URL>
+cd WeatherTracker
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. **Install Dependencies**
+```bash
+npm install
+```
 
-## Learn more
+### 3. **Install Expo CLI (if needed)**
+```bash
+npm install -g expo-cli
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. **Run the App**
+```bash
+npx expo start
+```
+- Scan the QR code with [Expo Go](https://expo.dev/go) on your device, or
+- Press `a` (Android) / `i` (iOS) to launch an emulator/simulator.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## ⚙️ Project Structure
+- `app/` — Main screens and navigation (Home, Locations, Login, Register, etc.)
+- `components/` — Reusable UI components
+- `constants/` — API keys, theme colors, etc.
+- `hooks/` — Custom React hooks (auth, weather, locations)
+- `scripts/` — Firebase and external service configs
+- `assets/` — Images, icons, etc.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🔑 API Keys & Auth
+- **WeatherAPI:** Key is included in `constants/WeatherAPI.ts` (for demo/assessment only)
+- **Firebase Auth:** Config included in `scripts/firebase.ts` (for demo/assessment only)
+- **No backend needed**
+
+---
+
+## 📲 How to Share the App
+
+1. **Share the Code:**
+   - Zip the entire project folder or push it to a GitHub repo.
+   - Share the zip file or repo link with your collaborator.
+
+2. **Setup Instructions for Others:**
+   - Clone or unzip the project.
+   - Run `npm install` to install dependencies.
+   - Run `npx expo start` to launch the app.
+   - They can scan the QR code with Expo Go or run on an emulator.
+
+3. **(Optional) Publish to Expo:**
+   - Run `npx expo publish` to make the app available via a public Expo link.
+   - Share the Expo link for easy access on any device with Expo Go.
+
+---
+
+## 🛠️ Tech Stack
+- **React Native + Expo**
+- **Firebase Auth**
+- **WeatherAPI.com**
+- **AsyncStorage** (for offline/weather caching)
+- **Expo Location** (for GPS)
+- **React Navigation**
+- **React Native Vector Icons**
+
+---
+
+## 📝 Notes
+- For production, never commit API keys. Use environment variables or secure storage.
+- This project is frontend-only for demo/assessment.
+- For any issues, make sure you have the latest Node.js, npm, and Expo CLI.
+
+---
+
+Happy Weather Tracking! 🌤️
+
+
+
+## 📲 How to Install & Use the Weather Tracker App
+
+Anyone can try this app — no coding or installation tools needed!
+
+### ✅ Requirements:
+- A smartphone (Android or iPhone)
+- Internet connection
+- 1–2 minutes of time
+
+---
+
+### 🪜 Steps to Use the App
+
+#### 1. **Install the Expo Go App**
+
+This app is required to open mobile projects made with Expo (like this one):
+
+- 📱 Android (Google Play):
+  https://play.google.com/store/apps/details?id=host.exp.exponent
+
+- 📱 iPhone (App Store):
+  https://apps.apple.com/app/expo-go/id982107779
+
+#### 2. **Open Expo Go**
+
+- Open the Expo Go app you just installed.
+- Tap **"Explore"** or **"Projects"** (depending on your device).
+
+#### 3. **Paste the App Link**
+
+Copy and paste this link inside the Expo Go app:
+
+https://expo.dev/@yashvardhansharma001/weathertracker
+
+#### 4. **Run the App Instantly**
+
+After a few seconds, the Weather Tracker app will load and run on your phone.
+
+No login, no setup, no installation required.
+
+---

@@ -15,10 +15,23 @@ type IconSymbolName = keyof typeof MAPPING;
  */
 const MAPPING = {
   'house.fill': 'home',
-  'paperplane.fill': 'send',
-  'chevron.left.forwardslash.chevron.right': 'code',
-  'chevron.right': 'chevron-right',
-} as IconMapping;
+  'location.fill': 'location-on',
+  'person.fill': 'person',
+  'person.badge.plus.fill': 'person-add',
+  'cloud.sun.fill': 'wb-sunny',
+  'cloud.fill': 'cloud',
+  'thermometer': 'device-thermostat',
+  'humidity.fill': 'water-drop',
+  'wind': 'air',
+  'calendar': 'calendar-today',
+  'explore': 'explore',
+  'settings': 'settings',
+  'star.fill': 'star',
+  'favorite.fill': 'favorite',
+  'search': 'search',
+  'refresh': 'refresh',
+  'logout': 'logout',
+} as unknown as IconMapping;
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
