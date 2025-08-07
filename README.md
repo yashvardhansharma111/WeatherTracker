@@ -119,7 +119,7 @@ This guide will walk you through installing and using the Weather Tracker app on
    Visit the following link on your phone’s browser to download the app:
    
    **Download link:**  
-   https://expo.dev/accounts/yashvardhansharma001/projects/WeatherTracker/builds/45fe81db-c0dd-49bc-ac72-fa33f5d95569
+https://expo.dev/accounts/yashvardhansharma001/projects/WeatherTracker/builds/7caa0764-cf54-4672-a8fa-de0a37e84751
 
 2. **Install the app**
    
